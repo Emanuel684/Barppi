@@ -1,0 +1,70 @@
+.div-texto-buscar-buscarTrabajosRealizados {
+  font-weight: bold;
+  font-family: "Comfortaa", cursive;
+  color: black;
+  font-size: 300%;
+}
+.input-buscar-buscarTrabajosRealizados {
+  border-radius: 4px;
+  border: solid 2px black;
+  width: 90%;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.div-input-buscar-buscarTrabajosRealizados {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px grey;
+  padding-bottom: 10px;
+}
+
+/* QUE LA BARRA SE QUEDE QUIETA */
+.menu-fixed-busqueda-trabajosRealizados {
+  position: fixed;
+  border-radius: 10px;
+  z-index: 1000;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  box-shadow: 4px 6px 10px rgb(0, 0, 0, 0.3);
+}
+.busqueda-fixed-trabajosRealizados {
+  padding-top: 9%;
+}
+@media only screen and (max-width: 1215px) {
+  .busqueda-fixed-trabajosRealizados {
+    padding-top: 12%;
+  }
+  @media only screen and (max-width: 930px) {
+    .busqueda-fixed-trabajosRealizados {
+      padding-top: 15%;
+    }
+    @media only screen and (max-width: 760px) {
+      .busqueda-fixed-trabajosRealizados {
+        padding-top: 18%;
+      }
+      @media only screen and (max-width: 620px) {
+        .busqueda-fixed-trabajosRealizados {
+          padding-top: 21%;
+        }
+        @media only screen and (max-width: 530px) {
+          .busqueda-fixed-trabajosRealizados {
+            padding-top: 24%;
+          }
+          @media only screen and (max-width: 450px) {
+            .busqueda-fixed-trabajosRealizados {
+              padding-top: 25%;
+            }
+            @media only screen and (max-width: 355px) {
+              .busqueda-fixed-trabajosRealizados {
+                padding-top: 27%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
